@@ -1,3 +1,9 @@
+/*
+Simple NodeJS Azure Test
+To run locally, don't forget to exec "npm install" in your directory to install dependency modules
+*/
+
+// Include ExpressJS framework
 const express = require('express');
 const app = express();
 
