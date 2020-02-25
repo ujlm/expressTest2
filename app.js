@@ -17,6 +17,8 @@ app.use(express.urlencoded({
     extended: true
 }));
 
+app.use(express.static(__dirname + '/public'));
+
 app.get('/',(req,res)=>{
     res.render('home.ejs')
 })
