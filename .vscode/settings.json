@@ -1,0 +1,4 @@
+{
+    "appService.deploySubpath": "",
+    "appService.defaultWebAppToDeploy": "/subscriptions/46c462ce-796b-4ae0-bd6f-15863a9f8b71/resourceGroups/hwTest/providers/Microsoft.Web/sites/expressTest2"
+}
