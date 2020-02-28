@@ -10,6 +10,8 @@ const app = express();
 //This is a comment change
 const path = require('path')
 
+//MasterChange
+//THIS IS A CHANGE YOU CAN DELETE TO CHECK IF EVERYTHING WORKS 
 app.set('view engine', 'ejs')
 app.set('views', path.join(__dirname, 'views'))
 
