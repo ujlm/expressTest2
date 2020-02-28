@@ -7,6 +7,7 @@ To run locally, don't forget to exec "npm install" in your directory to install 
 const express = require('express');
 const app = express();
 
+//This is a comment change
 const path = require('path')
 
 app.set('view engine', 'ejs')
@@ -14,7 +15,7 @@ app.set('views', path.join(__dirname, 'views'))
 
 //body parser middleware
 app.use(express.urlencoded({
-    extended: true
+    extended: trues
 }));
 
 app.use(express.static(__dirname + '/public'));
